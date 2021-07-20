@@ -49,7 +49,7 @@
   ],
   "dependencies": {
     "@ant-design/icons": "^4.0.0",
-    "@ant-design/pro-layout": "^5.0.8",
+    "@ant-design/pro-layout": "^6.22.1",
     "@ant-design/pro-table": "^2.1.11",
     "@antv/g2plot": "^1.0.3",
     "@opd/g2plot-react": "^1.1.2",
