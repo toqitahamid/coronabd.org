@@ -52,7 +52,7 @@
     "@ant-design/pro-layout": "^6.23.2",
     "@ant-design/pro-table": "^2.1.11",
     "@antv/g2plot": "^1.0.3",
-    "@opd/g2plot-react": "^1.1.2",
+    "@opd/g2plot-react": "^2.0.0",
     "antd": "^4.0.0",
     "classnames": "^2.2.6",
     "i18n-iso-countries": "^5.1.0",
