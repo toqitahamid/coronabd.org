@@ -1,0 +1,52 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@ant-design/pro-layout"
+    versions:
+    - 6.13.0
+    - 6.14.0
+    - 6.14.2
+    - 6.14.3
+    - 6.14.4
+    - 6.14.5
+    - 6.15.0
+    - 6.15.2
+    - 6.15.3
+    - 6.15.4
+    - 6.15.5
+    - 6.16.0
+    - 6.16.1
+    - 6.16.2
+    - 6.16.3
+    - 6.16.6
+  - dependency-name: "@types/jest"
+    versions:
+    - 26.0.20
+    - 26.0.21
+    - 26.0.22
+  - dependency-name: i18n-iso-countries
+    versions:
+    - 6.4.0
+    - 6.5.0
+    - 6.6.0
+  - dependency-name: puppeteer
+    versions:
+    - 5.5.0
+    - 6.0.0
+    - 7.0.1
+    - 7.0.3
+    - 7.0.4
+    - 7.1.0
+    - 8.0.0
+  - dependency-name: "@types/react-helmet"
+    versions:
+    - 6.1.0
+  - dependency-name: chalk
+    versions:
+    - 4.1.0
